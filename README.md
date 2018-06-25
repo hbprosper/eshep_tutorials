@@ -23,11 +23,21 @@ mkdir -p external/lib
 mkdir -p external/include
 mkdir -p external/share
 ```
-You should clone all external packages, such as this one, in your __external__ directory. For the tutorials, you will need to execute the commands
+You should clone all external (utility) packages into your __external__ directory. For the tutorials, you will need to execute the commands
 ```
 cd
+mkdir -p Projects/Tutorials
+cd tProjects/Tutorials
+git clone https://github.com/hbprosper/eshep_tutorials
+
+cd
 cd external
-git clone https://github.com/hbprosper/eshep_tutorials
-git clone https://github.com/hbprosper/eshep_tutorials
+git clone https://github.com/hbprosper/histutil
 git clone https://github.com/hbprosper/dnnet
 ```
+The first package is this one, containing the tutorials. Do not place this in __external__. Put it in some work area, e.g., __$HOME/Projects/Tutorials__. The second package is a collection of simple utilities that use __ROOT__, while the third can be used to create a C++ file that encapsulates a fully connected feed forward deep neural network fitted (trained) using __scikit-learn__'s __MLPClassifier__ class. Once per terminal session, you should do
+```
+source $HOME/external/histutil/setup.sh
+source $HOME/external/dnnet/setup.sh
+```
+This works for a __bash__ shell. If you use another shell, I'm afraid you'll have to create your own versions of the setup.sh scripts. Sorry! Ok, you're ready to rumble!
