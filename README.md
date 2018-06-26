@@ -63,7 +63,7 @@ and second contains the notebooks
 
 | __notebook__ | __description__ |
 | :---         | :--- |
-| 00_prepare_hzz_data.ipynb | prepare data for notebook 03_dnn_hzz_vbf_ggf.ipynb |
+| 00_prepare_hzz_data.ipynb | prepare data for notebook 02_dnn_hzz_vbf_ggf.ipynb |
 | 01_bdt_wine.ipynb         | a BDT-based wine taster |
 | 01_dnn_wine.ipynb           | a DNN-based wine taster |
 | 02_dnn_hzz_vbf_ggf.ipynb    | a DNN to discriminate H(VBF) from H(ggF) |
