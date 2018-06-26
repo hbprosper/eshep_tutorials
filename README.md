@@ -4,14 +4,17 @@ The jupyter notebook tutorials in this package complement the statistics/machine
 The tutorials implement solutions in Python to some of the more involved exercises presented in the lectures. 
 
 The tutorials depend on a few well-known Python packages: 
-  * __numpy__   (numerical analysis and array manipulation)
-  * __pandas__  (data table manipulation)
-  * __scipy__   (scientific comouting)
-  * __matplotlib__ (plotting)
-as well as on __ROOT__ (version 6.12.x), which includes the probability modeling package __RooFit__ and the statistical analysis package __RooStats__, which is built on top of __RooFit__.
-  
-In addition, the machine learning tutorials make use of  
-  * __scikit-learn__ (an easy to use machine learning toolkit)
+| modules       | comment     |
+| ------------- |:-------------:|
+| pandas        | data table manipulation, often with data loaded from csv files |
+| numpy         | array manipulation and numerical analysis      |
+| scipy         | scientific computing    |
+| matplotlib    | a widely used plotting module for producing high quality plots |
+| pylab         | embedded within matplotlib and provides Matlab-like features |
+| scijit-learn  | easy to use machine learning toolkit |
+
+The tutorials also use __ROOT__ (version 6.12.x), which includes the probability modeling package __RooFit__ and the statistical analysis package __RooStats__, which is built on top of __RooFit__.
+ 
   
   
 ## Installation
@@ -44,6 +47,8 @@ This works for a __bash__ shell. If you use another shell, I'm afraid you'll hav
 
 # Tutorials
 There are two directories in this package, __stats__ and __ml__. The first contains the notebooks
+
+
 ```
 00.1_roofit.ipynb
 00.2_roofit.ipynb
