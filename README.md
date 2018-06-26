@@ -3,15 +3,16 @@ The jupyter notebook tutorials in this package complement the statistics/machine
 
 The tutorials implement solutions in Python to some of the more involved exercises presented in the lectures. 
 
-The tutorials depend on a few well-known Python packages: 
-| modules       | comment     |
+The tutorials depend on a few well-known Python packages:
+
+| __modules__   | __description__     |
 | :---          | :---        |
 | pandas        | data table manipulation, often with data loaded from csv files |
 | numpy         | array manipulation and numerical analysis      |
 | scipy         | scientific computing    |
 | matplotlib    | a widely used plotting module for producing high quality plots |
 | pylab         | embedded within matplotlib and provides Matlab-like features |
-| scijit-learn  | easy to use machine learning toolkit |
+| scikit-learn  | easy to use machine learning toolkit |
 
 The tutorials also use __ROOT__ (version 6.12.x), which includes the probability modeling package __RooFit__ and the statistical analysis package __RooStats__, which is built on top of __RooFit__.
  
@@ -47,21 +48,25 @@ This works for a __bash__ shell. If you use another shell, I'm afraid you'll hav
 
 # Tutorials
 There are two directories in this package, __stats__ and __ml__. The first contains the notebooks
-```
-00.1_roofit.ipynb
-00.2_roofit.ipynb
-07.1_rootn.ipynb
-07.2_poisson.ipynb
-08_bias.ipynb
-09_wilks.ipynb
-11_16_hzz4l.ipynb
-```
+
+| __notebook__ | __description__ |
+| :---         | :--- |
+| 00.1_roofit.ipynb | basic introduction to Python, PyROOT, and RooFit |
+| 00.2_roofit.ipynb | maximum likelihood fit of cosmological model to Type1a supernova data using RooFit |
+| 07.1_rootn.ipynb  | study of sqrt(N) upper limits |
+| 07.2_poisson.ipynb| Monte Carlo study of confidence intervals for the Poisson distribution | 
+| 08_bias.ipynb     | Monte Carlo study of bias and consistency for the Poisson distribution |
+| 09_wilks.ipynb    | Monte Carlo study of Wilks' theorem |
+| 11_16_hzz4l.ipynb | Single count analysis of 2014 CMS H to ZZ to 4-lepton results |
+
 and second contains the notebooks
-```
-00_prepare_hzz_data.ipynb
-01_bdt_wine.ipynb
-01_dnn_wine.ipynb
-02_dnn_hzz_vbf_ggf.ipynb
-03_hmc.ipynb
-```
+
+| __notebook__ | __description__ |
+| :---         | :--- |
+| 00_prepare_hzz_data.ipynb | prepare data for notebook 03_dnn_hzz_vbf_ggf.ipynb |
+| 01_bdt_wine.ipynb         | a BDT-based wine taster |
+| 01_dnn_wine.ipynb           | a DNN-based wine taster |
+| 02_dnn_hzz_vbf_ggf.ipynb    | a DNN to discriminate H(VBF) from H(ggF) |
+| 03_hmc.ipynb, hmc.ipynb     | illustrate sampling using the Hamiltonia Monte Carlo method      |         
+
 
