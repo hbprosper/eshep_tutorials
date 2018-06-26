@@ -5,7 +5,7 @@ The tutorials implement solutions in Python to some of the more involved exercis
 
 The tutorials depend on a few well-known Python packages: 
 | modules       | comment     |
-| ------------- |:-------------:|
+| :---          | :---        |
 | pandas        | data table manipulation, often with data loaded from csv files |
 | numpy         | array manipulation and numerical analysis      |
 | scipy         | scientific computing    |
@@ -47,8 +47,6 @@ This works for a __bash__ shell. If you use another shell, I'm afraid you'll hav
 
 # Tutorials
 There are two directories in this package, __stats__ and __ml__. The first contains the notebooks
-
-
 ```
 00.1_roofit.ipynb
 00.2_roofit.ipynb
@@ -58,3 +56,12 @@ There are two directories in this package, __stats__ and __ml__. The first conta
 09_wilks.ipynb
 11_16_hzz4l.ipynb
 ```
+and second contains the notebooks
+```
+00_prepare_hzz_data.ipynb
+01_bdt_wine.ipynb
+01_dnn_wine.ipynb
+02_dnn_hzz_vbf_ggf.ipynb
+03_hmc.ipynb
+```
+
