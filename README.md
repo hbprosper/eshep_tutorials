@@ -1,5 +1,5 @@
 # Introduction
-The jupyter notebook tutorials in this package complement the statistics/machine learning lectures given at the European School of High-Energy Physics. The tutorials provide a reasonably gentle, yet I hope highly instructive, introduction to a few important ideas in frequentist and Bayesian statistics as well as machine learning. Both fields are vast and increasingly complex. However, both contain ideas that are foundational and, therefore, remain valid. 
+The jupyter notebook tutorials in this package complement the statistics/machine learning lectures given at the European School of __High-Energy Physics__. The tutorials provide a reasonably gentle, yet I hope highly instructive, introduction to a few important ideas in frequentist and Bayesian statistics as well as machine learning. Both fields are vast and increasingly complex. However, both contain ideas that are foundational and, therefore, remain valid. 
 
 The tutorials implement solutions in Python to some of the more involved exercises presented in the lectures. 
 
@@ -27,7 +27,7 @@ You should clone all external (utility) packages into your __external__ director
 ```
 cd
 mkdir -p Projects/Tutorials
-cd tProjects/Tutorials
+cd Projects/Tutorials
 git clone https://github.com/hbprosper/eshep_tutorials
 
 cd
@@ -49,7 +49,7 @@ There are two directories in this package, __stats__ and __ml__. The first conta
 00.2_roofit.ipynb
 07.1_rootn.ipynb
 07.2_poisson.ipynb
-07.3_poisson.ipynb
+08_bias.ipynb
 09_wilks.ipynb
 11_16_hzz4l.ipynb
 ```
