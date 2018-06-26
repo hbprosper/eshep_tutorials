@@ -41,3 +41,15 @@ source $HOME/external/histutil/setup.sh
 source $HOME/external/dnnet/setup.sh
 ```
 This works for a __bash__ shell. If you use another shell, I'm afraid you'll have to create your own versions of the setup.sh scripts. Sorry! Ok, you're ready to rumble!
+
+# Tutorials
+There are two directories in this package, __stats__ and __ml__. The first contains the notebooks
+```
+00.1_roofit.ipynb
+00.2_roofit.ipynb
+07.1_rootn.ipynb
+07.2_poisson.ipynb
+07.3_poisson.ipynb
+09_wilks.ipynb
+11_16_hzz4l.ipynb
+```
