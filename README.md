@@ -13,6 +13,7 @@ The tutorials depend on a few well-known Python packages:
 | matplotlib    | a widely used plotting module for producing high quality plots |
 | pylab         | embedded within matplotlib and provides Matlab-like features |
 | scikit-learn  | easy to use machine learning toolkit |
+| sympy         | an excellent symbolic algebra module |
 
 The tutorials also use __ROOT__ (version 6.12.x), which includes the probability modeling package __RooFit__ and the statistical analysis package __RooStats__, which is built on top of __RooFit__.
  
@@ -52,7 +53,8 @@ There are two directories in this package, __stats__ and __ml__. The first conta
 | __notebook__ | __description__ |
 | :---         | :--- |
 | 00.1_roofit.ipynb | basic introduction to Python, PyROOT, and RooFit |
-| 00.2_roofit.ipynb | maximum likelihood fit of cosmological model to Type1a supernova data using RooFit |
+| 00.2_type1a.ipynb | maximum likelihood fit of cosmological models to Type1a supernova data using RooFit |
+| 00.3_cosmos.ipynb | illustration of sympy module |
 | 07.1_rootn.ipynb  | study of sqrt(N) upper limits |
 | 07.2_poisson.ipynb| Monte Carlo study of confidence intervals for the Poisson distribution | 
 | 08_bias.ipynb     | Monte Carlo study of bias and consistency for the Poisson distribution |
