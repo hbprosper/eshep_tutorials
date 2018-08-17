@@ -1,5 +1,5 @@
 # Introduction
-The jupyter notebook tutorials in this package complement the statistics/machine learning lectures given at the __European School of High-Energy Physics__. The tutorials provide a reasonably gentle, yet I hope highly instructive, introduction to a few important ideas in frequentist and Bayesian statistics as well as machine learning. Both fields are vast and increasingly complex. However, both contain ideas that are foundational and, therefore, remain valid. 
+The jupyter notebook tutorials in this package complement the statistics/machine learning lectures given at the __European School of High-Energy Physics__. The tutorials provide a reasonably gentle, but I hope highly instructive, introduction to a few important ideas in frequentist and Bayesian statistics as well as machine learning. Both fields are vast and increasingly complex. However, both contain ideas that are foundational and, therefore, likely to remain standard for some time. 
 
 The tutorials implement solutions in Python to some of the more involved exercises presented in the lectures. 
 
@@ -69,6 +69,6 @@ and second contains the notebooks
 | 01_bdt_wine.ipynb         | a BDT-based wine taster |
 | 01_dnn_wine.ipynb           | a DNN-based wine taster |
 | 02_dnn_hzz_vbf_ggf.ipynb    | a DNN to discriminate H(VBF) from H(ggF) |
-| 03_hmc.ipynb, hmc.ipynb     | illustrate sampling using the Hamiltonia Monte Carlo method      |         
+| 03_hmc.ipynb, hmc.ipynb     | illustrate sampling using the Hamiltonian Monte Carlo method      |         
 
 
